@@ -155,15 +155,3 @@ b = 5
 # for k in a 
 #   puts k
 # end
-
- 
-a = [{"id": 1 , "name": "ram"},{"id": 3 , "name": "sita" }] 
-    b = [{"id": 3, "age":  24 }]     
-    for i in a 
-      for j in b
-        if  i[:"id"]== j[:"id"]
-          i.merge!(j)
-     end
-       end
-         end
- puts a
